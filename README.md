@@ -14,12 +14,16 @@ Structured after the well-known Kaggle "Food Choices" college student survey. Sw
 ## 🗂️ Project Structure
 project/
 ├── data/
-│   └── college_food_choices.csv       # Source dataset
+│   └── college_food_choices.csv     
+# Source dataset
 ├── images/
-│   └── 01-08_*.png                    # Tableau-styled static charts
+│   └── 01-08_*.png               
+# Tableau-styled static charts
 ├── report/
-│   └── College_Food_Choices_Case_Study.pdf   # Full case study document
+│   └── College_Food_Choices_Case_Study.pdf  
+# Full case study document
 └── scripts/
+
 ├── generate_data.py               # Builds/refreshes the dataset
 ├── make_charts.py                 # Generates the Tableau-styled charts
 └── build_pdf.py                   # Assembles the PDF report
